@@ -1,0 +1,13 @@
+{
+  "name": "quickprint-kiosk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QuickPrint kiosk — single-file frontend + Vercel serverless API routes. Source of truth for price, page count and order/payment state.",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
